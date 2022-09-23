@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', 'Arial', 'Sans-serif'
+}
+body{
+  background-color: #5fe8ff;
+}
+
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  background-color: #000000;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  width: 100%
+  }
+
+#header li{
+    display: inline;
+  }
+
+#header a {
+	display: inline-block;
+	padding: .5em 1.5em;
+  text-decoration: none;
+  border: solid white;
+}
+
+#header a:link{
+  color:  #e12727;
+}
+
+#header a:hover{
+  background-color: #e12727;
+  color:#000000;
+}
+
+#header ul{
+  margin: 1em 0 .5em;
+	text-align: center;
+}
+
+#main{
+width: 90%;
+padding: 25px;
+margin: 25px;
+background-color: #e12727;
+color: #fff;
+}
+#main h1, #main h2{
+  text-align: center;
+}
+#main h2{
+  color: #000000;
+}
+#image{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#img-div{
+  margin: 25px auto 10px;
+  text-align: center;
+}
+#img-caption{
+  margin-top: 8px;
+}
+#tribute-info{
+  margin: 20px auto;
+  line-height: 25px;
+  text-align: justify;
+}
+
+#tribute-info ul{
+  margin: 15px 20px;
+  line-height: 25px;
+  padding: 2px 25px 2px;
+}
+
+
+.year{
+   color: #000000;
+  font-weight: bold;
+}
+
+.npi{
+  color:#070707;
+}
+.twenty{
+  color: #40965b;
+}
+.vessel{
+  color: #e3cead;
+}
+.blurry{
+  color: #2b2b2b;
+}
+.trench{
+  color: #FCE300;
+}
+.scaled{
+  color:#93D1DE;
+}
+#quote{
+  margin: 20px;
+  padding: 5px;
+  line-height: 25px;
+  background-color: #fff;
+  color: #000;
+}
+
+#quote figcaption{
+  text-align: right;
+}
+
+#tribute-link{
+  text-decoration: none;
+  color: #000;
+}
+#tribute-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
